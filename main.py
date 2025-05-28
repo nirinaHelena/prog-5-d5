@@ -55,7 +55,7 @@ class PaymentService:
     def _validate_card(self) -> bool:
         input("Insert your card and press Enter...")
         print("Card accepted.")
-        return True  # Simuler une carte toujours valide
+        return True 
 
     def _validate_token(self, token: str) -> bool:
         if token == "VALID_TOKEN":
@@ -111,7 +111,7 @@ class Main:
                 print(self.machine.brew_coffee(coffee_type))
 
             except CoffeeMachineError as e:
-                print(f"❌ {e.message}")
+                print(f" {e.message}")
 
             again = input("\nDo you want another coffee? (y/n): ").strip().lower()
             if again != 'y':
