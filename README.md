@@ -55,16 +55,3 @@ Une simulation modulaire et orientée objet d'une machine à café automatique e
 - `ExceptionHandler` – Gestion des exceptions
 
 ---
-
-## Démarrage du projet
-
-### Prérequis
-
-- Java 8+
-- Un terminal ou IDE (ex: IntelliJ, Eclipse)
-
-### Compilation et exécution
-
-```bash
-javac *.java
-java CoffeeMachineApp
